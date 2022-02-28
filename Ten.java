@@ -13,6 +13,8 @@ class Ten {
             System.out.print(number + " ");
         }
 
+        System.out.println();
+
     // * Ordenamiento con el metodo burbuja:
         // * La formula dice que debemos recorrer el array las mismas veces que la cantidad de elementos que contenga menos 1:
         // ! for(int v = 0; v < numbers.length - 1; v++) {
@@ -31,5 +33,7 @@ class Ten {
         for(int number : numbers) {
             System.out.print(number + " ");
         }
+
+        System.out.println();
     }
 }
